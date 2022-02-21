@@ -586,7 +586,7 @@ SurfaceEffector2D:
   m_ColliderMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Speed: 10
+  m_Speed: 15
   m_SpeedVariation: 0
   m_ForceScale: 0.1
   m_UseContactForce: 0
@@ -1001,6 +1001,7 @@ GameObject:
   - component: {fileID: 1748179499}
   - component: {fileID: 1748179500}
   - component: {fileID: 1748179501}
+  - component: {fileID: 1748179503}
   m_Layer: 0
   m_Name: Johnny
   m_TagString: Untagged
@@ -1021,8 +1022,8 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_LinearDrag: 0.5
+  m_AngularDrag: 5
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -1077,6 +1078,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1748179503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748179498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f45e7683acf1484bbc7247d1e0c35d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  torqueAmount: 4
 --- !u!1 &1940745734
 GameObject:
   m_ObjectHideFlags: 0
