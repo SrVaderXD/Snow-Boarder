@@ -618,7 +618,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 159838262}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.49, y: 0.76, z: -31.672188}
+  m_LocalPosition: {x: 0.49, y: 0.76, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1748179502}
@@ -706,7 +706,7 @@ ParticleSystem:
   ringBufferLoopRange: {x: 0, y: 1}
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   useRigidbodyForVelocity: 1
@@ -5422,7 +5422,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 303675948}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.3, y: -2.28, z: -21.883774}
+  m_LocalPosition: {x: -0.3, y: -2.28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1208379967}
@@ -5468,7 +5468,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_RenderMode: 0
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -5510,7 +5510,7 @@ ParticleSystem:
   ringBufferLoopRange: {x: 0, y: 1}
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   useRigidbodyForVelocity: 1
@@ -10519,7 +10519,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1208379965}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.14, y: 4.73, z: -9.788413}
+  m_LocalPosition: {x: 12.14, y: 4.73, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1891214083}
@@ -10540,7 +10540,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ff73191b0ea2c64086f993a37eaef8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayToLoad: 2
+  delayToLoad: 1
+  finishEffect: {fileID: 303675951}
 --- !u!1 &1707333425
 GameObject:
   m_ObjectHideFlags: 0
@@ -10566,7 +10567,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1707333425}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.274, y: -2.3532, z: 9.788413}
+  m_LocalPosition: {x: -0.274, y: -2.3532, z: 0}
   m_LocalScale: {x: 0.4, y: 4.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1208379967}
@@ -10821,7 +10822,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5b2deb050c56784999d72f6c1a3bce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayToLoad: 0.75
+  delayToLoad: 0.4
+  crashEffect: {fileID: 159838265}
 --- !u!1 &1891214082
 GameObject:
   m_ObjectHideFlags: 0
@@ -10847,7 +10849,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1891214082}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.27, y: 0.02, z: 9.788413}
+  m_LocalPosition: {x: -0.27, y: 0.02, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 1208379967}
